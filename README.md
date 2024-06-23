@@ -1,6 +1,4 @@
-Sure, here's a structured `README.md` file tailored for your Disease Prediction Model repository on GitHub:
 
----
 
 # Disease Prediction Model
 
@@ -63,8 +61,9 @@ To run the project locally, follow these steps:
 
    Run the Python script to train the disease prediction model:
 
-   bash
+   ```bash
    python main.py
+   ```
    
 
 
@@ -73,7 +72,7 @@ To run the project locally, follow these steps:
 
    View visualizations of evaluation metrics and model performance, including ROC curves and confusion matrices.
    ![alt text](image.png)
-
+   
 ## Model Evaluation
 
 The model is evaluated using various metrics to assess its accuracy and reliability in predicting disease likelihood based on medical data. These metrics include:
