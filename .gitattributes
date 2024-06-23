@@ -1,0 +1,19 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Set Python files to use Python syntax highlighting
+*.py linguist-language=Python
+
+# Set Markdown files to use Markdown syntax highlighting
+*.md linguist-language=Markdown
+
+# Declare binary files
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Use "ours" merge strategy for specific files
+data/large_dataset.csv merge=ours
+
+# Ignore whitespace differences in Python files
+*.py diff=python whitespace=ignore-space-change
